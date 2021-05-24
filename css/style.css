@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive, monospace, sans-serif;
+}
+
+body
+{
+    max-height: 100vh;
+    background-color: #2b2c33;
+}
+
+.color-box
+{
+    position: absolute;
+    display: flex;
+    right: calc((100vw - 18vw)/2);
+    width: 18vw;
+    height: 90vh;
+    background-color: #ffe600;
+}
+
+
+
+
+.row-1
+{
+    display: inline-block;
+    position: absolute;
+    width: 37vw;
+    height: 90vh;
+    left: 0;
+    overflow: hidden;
+}
+
+.row-2
+{
+    display: inline-block;
+    position: absolute;
+    width: 37vw;
+    height: 90vh;
+    float: right;
+    right: 0;
+}
+
+.row-1 .box
+{
+    width: 280px;
+    height: 100%;
+    float: right;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+
+.row-1 .box h2
+{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 55px;
+}
+
+.row-1 .box p
+{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.row-1 .box .socal-icon
+{
+    height: 60px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+    background: red;
+}
+
+
+.row-2 .box
+{
+    position: absolute;
+    width: 440px;
+    height: calc(100vh - 15vh);
+    float: left;
+    padding-top: 15vh;
+    left: -190px;
+}
+
+.row-2 .box h2
+{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.row-2 .box .contact-input:hover, 
+.row-2 .box .contact-input:focus 
+{
+    outline: none;
+    border: none;
+}
+
+
+.row-2 .box .contact-input
+{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.row-2 .box #input-message
+{
+    width: 440px;
+    height: 165px;
+    padding-top: 10px;
+}
+
+.row-2 .box .submit-btn
+{
+    width: 170px;
+    height: 45px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 21px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.row-2 .box .submit-btn:hover
+{
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+.footer
+{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(72, 70, 70);
+}
+
+.footer ul
+{
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    left: calc((100vw - 524px)/2);
+}
+
+.footer ul li 
+{
+    margin-right: 70px;
+}
+
+.footer ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.footer ul li a:hover
+{
+    color: yellow;
+}
+
+.footer ul li .active
+{
+    color: yellow;
+}
